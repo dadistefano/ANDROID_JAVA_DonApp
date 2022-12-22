@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mainTxtTitle">Bienvenido a parking control</string>
+    <string name="mainTxtSubTitle">Iniciar sesion para empezar</string>
+    <string name="mainImg">Auto</string>
+    <string name="mainTxtNameUser">Nombre de usuario</string>
+    <string name="mainTxtPassword">Contraseña</string>
+    <string name="mainBtnLogin">Iniciar sesion</string>
+    <string name="mainBtnCheckIn">Registrarse</string>
+    <string name="DonApp">DonApp</string>
+    <string name="Solicitudes">Solicitudes</string>
+    <string name="Campanias">Campañas</string>
+    <string name="Donaciones">Donaciones</string>
+    <string name="BancoDeSangres">Bancos de sangre</string>
+    <string name="PostulacionesActivas">Postulaciones activas</string>
+    <string name="HistorialMedico">Historial médico</string>
+    <string name="CerrarSesion">Cerrar sesión</string>
+    <string name="Inicio">Inicio</string>
+</resources>

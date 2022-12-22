@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio_institucion"
+            android:icon="@drawable/ic_home_2"
+            android:title="@string/Inicio" />
+        <item
+            android:id="@+id/nav_campania_institucion"
+            android:icon="@drawable/ic_campania_2"
+            android:title="@string/Campanias" />
+        <item
+            android:id="@+id/nav_mis_datos_institucion"
+            android:icon="@drawable/ic_seguridad_4"
+            android:title="Mis datos" />
+    </group>
+</menu>

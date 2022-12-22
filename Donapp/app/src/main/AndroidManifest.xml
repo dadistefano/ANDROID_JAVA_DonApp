@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.donapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Donapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.MisCampaniasActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activity.AltaCampaniaActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activity.DetalleCampaniaActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activity.EditarMisDatosActivity"
+            android:exported="false" />
+            <activity
+            android:name=".Activity.PostulanteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetallePostulacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetallePostulantesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetalleBancoSangreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MisSolicitudesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AltaHistorialMedicoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AltaSolicitudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetalleSolicitudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EmpresaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_empresa"
+            android:theme="@style/Theme.Donapp.NoActionBar" />
+        <activity
+            android:name=".Activity.InstitucionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_institucion"
+            android:theme="@style/Theme.Donapp.NoActionBar" />
+        <activity
+            android:name=".Activity.SolicitanteDonanteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_solicitante_donante"
+            android:theme="@style/Theme.Donapp.NoActionBar" />
+        <activity
+            android:name=".Activity.UsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PersonaJuridicaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PersonaFisicaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.TipoUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Donapp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
